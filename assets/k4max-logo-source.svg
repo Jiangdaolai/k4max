@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <mask id="left-ring" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48" style="mask-type:luminance">
+      <rect width="48" height="48" fill="white"/>
+      <circle cx="24" cy="34.151" r="3.8" fill="black"/>
+    </mask>
+    <mask id="right-ring" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48" style="mask-type:luminance">
+      <rect width="48" height="48" fill="white"/>
+      <circle cx="24" cy="13.849" r="3.8" fill="black"/>
+    </mask>
+  </defs>
+  <g transform="rotate(-24 24 24)" stroke="#111111" stroke-width="4.4">
+    <circle cx="17.6" cy="24" r="12" mask="url(#left-ring)"/>
+    <circle cx="30.4" cy="24" r="12" mask="url(#right-ring)"/>
+  </g>
+</svg>
